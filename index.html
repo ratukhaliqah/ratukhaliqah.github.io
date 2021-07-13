@@ -1,64 +1,70 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<title>HTML dan CSS 4</title>
-		<link rel="stylesheet" type="text/css" href="webstyle.css">
-		<link rel="icon" href="phyllo.jpeg" type="image/x-icon">
-	</head>
-	<body>
-			<h2>HTML dan CSS 4</h2>
-			<h3>COVID-19 Pandemic : Online Learning Experiences</h3>
-			<h4>Writer's Profile</h4>
-	
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<center><table>
-		 <!-- Insert image -->
-        <center><img src="ratu.jpg"; width="250"><center>
-		<tr>
-			<td><b>PROFILE</b></td>
-			<td><b>PROFILE INFORMATION</b></td>
-		<tr>
-			<td><b>Full Name</b></td>
-			<td>Ratu Khaliqah Ardarichwari</td>
-		</tr>
-		</tr>
-		<tr>
-			<td><b>Birthday</b></td>
-			<td>Bogor, September 1 2004</td>
-		<tr>
-			<td><b>School, Class</b></td>
-			<td>SMK-SMAK Bogor, XI-4</td>
-		</tr>
-		<tr>
-			<td><b>Phone Number</b></td>
-			<td>081318935915</td>
-		</tr>
-		<tr>
-			<td><b>Hobbies</b></td>
-			<td>Draw, Paint, Play Games, Watch Animes</td>
-		</tr>
-		<tr>
-			<td><b>Favorite Color</b></td>
-			<td>Black,Blue,Lavender</td>
-		</tr>
-		<td><b>Motto</b></td>
-	<td>Those who climb the ladder must begin at the very bottom</td>
-		</tr>
-	
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
-	</center></table>
-	
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="webstyle.css">
+    <link rel="icon" href="phyllo.jpeg" type="image/x-icon">
 
-	<h3>Online Learning Experiences</h3>
-	
+    <title>HTML & CSS PAS</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-md fixed-top" style="background-color: rgb(150,56,32)">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="color:#F7B88C">Ratu Khaliqah Ardarichwari</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html" style="color:#F7B88C">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="index.html #about" style="color:#F7B88C">About Me</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="fotogaleri.html" style="color:#F7B88C">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
 
-	<p>	It has been approximately a year since our first day of online school. A lot of things have changed since then. To me, online learning has its own difficulties. It was kind of stressful but it didn't really show. Because the oen draining was our mental health instead of physical health. But I don't need to worry about anything now. I learned to enjoy life at it is, at the very moment. I have friends who I can always count on, and they can count on me. Online learning feels fun, since I don't really have to go out and go to school. It is now my comfort zone.</p>
-	
+     <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="ratu.jpg" alt="me" width="300" class="rounded-circle img-thumbnail"/> 
+      <h1 class="display-4">Ratu Khaliqah Ardarichwari</h1>
+      <p class="lead">Student of SMK-SMAK Bogor 2020/2021</p>
+    </section>
+    <!-- jumbotron end -->
 
-	<p>	Since I spent all of my time at home, I had more free time. I learned about a few things. I tried to learn a new language, I can understand a few phrases in Japanese and write words in Hiragana. I bought canvas and tried to paint, I even taught my siblings to paint skies. I learned to animate, I post some of my artwork to my social media platforms. I learned how to play guitar and ukulele, sometimes my siblings and I sing along together in my room. And there was a time where I learned to bake cakes and I made puddings. My family liked them so I decided to sell them. Unfortunately no one was willing to buy my puddings due to the delivery fee. Though at first it was kind of difficult, I think online learning is fun and I enjoyed it.
-	</p>
-	
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-8 text-center" id="abc">
+            <p>Hello, I my name is Ratu. I was born in Bogor September 1 2004 and I am a 17 years old student. I like to draw, paint, watch anime, and play RPG games. I am currently in 11th grade, studying in Bogor Vocational High School for Chemical Analyst also known as SMK-SMAK Bogor
+            </p>
+            <h5>Contact Me : 081318935915</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
 
-	</body>
-	</html>
-
+  </body>
+</html>
